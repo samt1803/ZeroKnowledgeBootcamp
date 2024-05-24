@@ -2,11 +2,10 @@
 // Make me compile without changing the function signature!
 // Execute `zustlings hint strings2` for hints :)
 
-// I AM NOT DONE
-
 fn main() {
     let word = String::from("green"); // Try not changing this line :)
-    if is_a_color_word(word) {
+    if is_a_color_word(word.as_str()) {
+    // if is_a_color_word(&word) {   // This also works
         println!("That is a color word I know!");
     } else {
         println!("That is not a color word I know.");
