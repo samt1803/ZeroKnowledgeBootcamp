@@ -12,20 +12,17 @@ fn main() {
     // Note the _single_ quotes that are used with short strings.
 
     let mut my_first_initial = 'C';
-    if is_alphabetic(
-        ref my_first_initial
-    ) {
+    if is_alphabetic(ref my_first_initial) {
         ('Alphabetical!').print();
-    } else if is_numeric(
-        ref my_first_initial
-    ) {
+    } else if is_numeric(ref my_first_initial) {
         ('Numerical!').print();
     } else {
         ('Neither alphabetic nor numeric!').print();
     }
 
-    let // Finish this line like the example! What's your favorite short string?
+    // Finish this line like the example! What's your favorite short string?
     // Try a letter, try a number, try a special character, try a short string!
+    let mut your_character = 'stort string here!';
     if is_alphabetic(
         ref your_character
     ) {
